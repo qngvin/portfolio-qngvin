@@ -1,0 +1,12 @@
+@use '../../contants/colors.scss' as *;
+
+.navbar-container {
+  position: fixed;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333; /* Set navbar background */
+  color: white;
+  padding: 10px 20px;
+  z-index: 10;
+}

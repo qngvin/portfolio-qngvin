@@ -1,0 +1,60 @@
+@import-normalize;
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+/* Basic CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #fff; /* Set default background color */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: inherit; /* Inherit the font weight from the body */
+}
+
+ul,
+ol {
+  list-style: none; /* Remove default list styling */
+}
+
+a {
+  text-decoration: none; /* Remove default link underlines */
+  color: inherit; /* Use inherited text color */
+}
+
+button {
+  background: none; /* Remove default background */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Show pointer cursor */
+}
+
+input,
+button,
+textarea {
+  font: inherit; /* Inherit font styles from body */
+}
+
+/* Apply more specific resets if needed */
