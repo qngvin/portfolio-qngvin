@@ -1,4 +1,8 @@
 @import-normalize;
+@font-face {
+  font-family: "UbuntuMono";
+  src: local("UbuntuMono"),url('./fonts/UbuntuMono-Regular.ttf');
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
